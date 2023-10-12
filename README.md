@@ -22,3 +22,4 @@ Following libraries are used to build up the above components:
 2. **[Get It](https://pub.dev/packages/get_it)**: Dependency Injection
 3. **[Stacked](https://pub.dev/packages/stacked)**: MVVM Architecture + Navigation + Dialogs
 4. **[Shared Preferences](https://pub.dev/packages/shared_preferences)**: Local Storage
+5. **[Logger](https://pub.dev/packages/logger)**: Logging
