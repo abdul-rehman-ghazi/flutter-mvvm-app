@@ -27,6 +27,8 @@ class AuthLocalProvider {
     return null;
   }
 
+  String? get accessToken => _sharedPreferences.getString(_keyAccessToken);
+
   Future<bool> logoutUser(String accessToken, User user) async {
     return await _sharedPreferences.remove(_keyAccessToken) &&
         await _sharedPreferences.remove(_keyUser);
